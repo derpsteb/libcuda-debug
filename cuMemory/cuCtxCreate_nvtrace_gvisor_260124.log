@@ -1,0 +1,1386 @@
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.2.2
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+Run [/libcuda-debug/cuMemory/cuMemory]
+Wait returned: stop signal: trace/breakpoint trap
+Tracing PID 27
+mmap(0x0, 0x2000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+openat(AT_FDCWD, /usr/local/nvidia/lib/glibc-hwcaps/x86-64-v3/libcuda.so.1, 0x80000)
+openat(AT_FDCWD, /usr/local/nvidia/lib/glibc-hwcaps/x86-64-v2/libcuda.so.1, 0x80000)
+openat(AT_FDCWD, /usr/local/nvidia/lib/tls/x86_64/libcuda.so.1, 0x80000)
+openat(AT_FDCWD, /usr/local/nvidia/lib/tls/libcuda.so.1, 0x80000)
+openat(AT_FDCWD, /usr/local/nvidia/lib/x86_64/libcuda.so.1, 0x80000)
+openat(AT_FDCWD, /usr/local/nvidia/lib/libcuda.so.1, 0x80000)
+openat(AT_FDCWD, /usr/local/nvidia/lib64/glibc-hwcaps/x86-64-v3/libcuda.so.1, 0x80000)
+openat(AT_FDCWD, /usr/local/nvidia/lib64/glibc-hwcaps/x86-64-v2/libcuda.so.1, 0x80000)
+openat(AT_FDCWD, /usr/local/nvidia/lib64/tls/x86_64/libcuda.so.1, 0x80000)
+openat(AT_FDCWD, /usr/local/nvidia/lib64/tls/libcuda.so.1, 0x80000)
+openat(AT_FDCWD, /usr/local/nvidia/lib64/x86_64/libcuda.so.1, 0x80000)
+openat(AT_FDCWD, /usr/local/nvidia/lib64/libcuda.so.1, 0x80000)
+openat(AT_FDCWD, /etc/ld.so.cache, 0x80000)
+mmap(0x0, 0x439f, 0x1 PROT_EXEC, 0x2 MAP_ANON|MAP_PRIVATE, 3, 0x0)
+openat(AT_FDCWD, /usr/lib/x86_64-linux-gnu/libcuda.so.1, 0x80000)
+mmap(0x0, 0x1c5c4a0, 0x1 PROT_EXEC, 0x802 MAP_ANON|MAP_PRIVATE|MAP_INHERIT, 3, 0x0)
+mmap(0x7ec2c8ee1000, 0x518000, 0x5 PROT_EXEC|PROT_READ, 0x812 MAP_ANON|MAP_PRIVATE|MAP_INHERIT, 3, 0xe1000)
+mmap(0x7ec2c93f9000, 0x14de000, 0x1 PROT_EXEC, 0x812 MAP_ANON|MAP_PRIVATE|MAP_INHERIT, 3, 0x5f9000)
+mmap(0x7ec2ca8d7000, 0x11f000, 0x3 PROT_WRITE|PROT_EXEC, 0x812 MAP_ANON|MAP_SHARED|MAP_INHERIT, 3, 0x1ad6000)
+mmap(0x7ec2ca9f6000, 0x664a0, 0x3 PROT_WRITE|PROT_EXEC, 0x32 MAP_ANON|MAP_SHARED, ffffffff, 0x0)
+openat(AT_FDCWD, /usr/lib/x86_64-linux-gnu/libc.so.6, 0x80000)
+mmap(0x0, 0x228e50, 0x1 PROT_EXEC, 0x802 MAP_ANON|MAP_PRIVATE|MAP_INHERIT, 3, 0x0)
+mmap(0x7ec2c8a28000, 0x195000, 0x5 PROT_READ|PROT_EXEC, 0x812 MAP_ANON|MAP_PRIVATE|MAP_INHERIT, 3, 0x28000)
+mmap(0x7ec2c8bbd000, 0x58000, 0x1 PROT_EXEC, 0x812 MAP_ANON|MAP_SHARED|MAP_INHERIT, 3, 0x1bd000)
+mmap(0x7ec2c8c16000, 0x6000, 0x3 PROT_WRITE|PROT_EXEC, 0x812 MAP_ANON|MAP_SHARED|MAP_INHERIT, 3, 0x215000)
+mmap(0x7ec2c8c1c000, 0xce50, 0x3 PROT_WRITE|PROT_EXEC, 0x32 MAP_ANON|MAP_SHARED, ffffffff, 0x0)
+openat(AT_FDCWD, /usr/lib/x86_64-linux-gnu/libm.so.6, 0x80000)
+mmap(0x0, 0xe6108, 0x1 PROT_EXEC, 0x802 MAP_ANON|MAP_PRIVATE|MAP_INHERIT, 3, 0x0)
+mmap(0x7ec2c8d27000, 0x7c000, 0x5 PROT_READ|PROT_EXEC, 0x812 MAP_ANON|MAP_SHARED|MAP_INHERIT, 3, 0xe000)
+mmap(0x7ec2c8da3000, 0x5b000, 0x1 PROT_EXEC, 0x812 MAP_ANON|MAP_SHARED|MAP_INHERIT, 3, 0x8a000)
+mmap(0x7ec2c8dfe000, 0x2000, 0x3 PROT_WRITE|PROT_EXEC, 0x812 MAP_ANON|MAP_PRIVATE|MAP_INHERIT, 3, 0xe4000)
+openat(AT_FDCWD, /usr/lib/x86_64-linux-gnu/libdl.so.2, 0x80000)
+mmap(0x0, 0x4028, 0x1 PROT_EXEC, 0x802 MAP_ANON|MAP_PRIVATE|MAP_INHERIT, 3, 0x0)
+mmap(0x7ec2caa9f000, 0x1000, 0x5 PROT_READ|PROT_EXEC, 0x812 MAP_ANON|MAP_SHARED|MAP_INHERIT, 3, 0x1000)
+mmap(0x7ec2caaa0000, 0x1000, 0x1 PROT_EXEC, 0x812 MAP_ANON|MAP_PRIVATE|MAP_INHERIT, 3, 0x2000)
+mmap(0x7ec2caaa1000, 0x2000, 0x3 PROT_WRITE|PROT_EXEC, 0x812 MAP_ANON|MAP_SHARED|MAP_INHERIT, 3, 0x2000)
+openat(AT_FDCWD, /usr/lib/x86_64-linux-gnu/libpthread.so.0, 0x80000)
+mmap(0x0, 0x4028, 0x1 PROT_EXEC, 0x802 MAP_ANON|MAP_PRIVATE|MAP_INHERIT, 3, 0x0)
+mmap(0x7ec2caa9a000, 0x1000, 0x5 PROT_READ|PROT_EXEC, 0x812 MAP_ANON|MAP_PRIVATE|MAP_INHERIT, 3, 0x1000)
+mmap(0x7ec2caa9b000, 0x1000, 0x1 PROT_EXEC, 0x812 MAP_ANON|MAP_SHARED|MAP_INHERIT, 3, 0x2000)
+mmap(0x7ec2caa9c000, 0x2000, 0x3 PROT_WRITE|PROT_EXEC, 0x812 MAP_ANON|MAP_SHARED|MAP_INHERIT, 3, 0x2000)
+openat(AT_FDCWD, /usr/lib/x86_64-linux-gnu/librt.so.1, 0x80000)
+mmap(0x0, 0x2000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x4038, 0x1 PROT_EXEC, 0x802 MAP_ANON|MAP_PRIVATE|MAP_INHERIT, 3, 0x0)
+mmap(0x7ec2caa93000, 0x1000, 0x5 PROT_EXEC|PROT_READ, 0x812 MAP_ANON|MAP_SHARED|MAP_INHERIT, 3, 0x1000)
+mmap(0x7ec2caa94000, 0x1000, 0x1 PROT_EXEC, 0x812 MAP_ANON|MAP_SHARED|MAP_INHERIT, 3, 0x2000)
+mmap(0x7ec2caa95000, 0x2000, 0x3 PROT_WRITE|PROT_EXEC, 0x812 MAP_ANON|MAP_SHARED|MAP_INHERIT, 3, 0x2000)
+mmap(0x0, 0x5000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+ioctl(1 host:[1], 0x01 , 0x10004157f1c0300)
+cuInit
+openat(AT_FDCWD, /sys/devices/system/cpu/online, 0x80000)
+openat(AT_FDCWD, /sys/devices/system/cpu/online, 0x80000)
+mmap(0x0, 0x21000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+openat(AT_FDCWD, /proc/sys/vm/mmap_min_addr, 0x0)
+openat(AT_FDCWD, /proc/cpuinfo, 0x0)
+openat(AT_FDCWD, /proc/self/maps, 0x0)
+openat(AT_FDCWD, /sys/devices/system/cpu/online, 0x80000)
+openat(AT_FDCWD, /dev/shm/cuda_injection_path_shm, 0xa0002)
+openat(AT_FDCWD, /root/.nv/nvidia-application-profile-globals-rc, 0x0)
+openat(AT_FDCWD, /root/.nv/nvidia-application-profiles-rc, 0x0)
+openat(AT_FDCWD, /root/.nv/nvidia-application-profiles-rc.d, 0x0)
+openat(AT_FDCWD, /etc/nvidia/nvidia-application-profiles-rc, 0x0)
+openat(AT_FDCWD, /etc/nvidia/nvidia-application-profiles-rc.d/, 0x0)
+openat(AT_FDCWD, /usr/share/nvidia/nvidia-application-profiles-535.104.05-rc, 0x0)
+openat(AT_FDCWD, /usr/share/nvidia/nvidia-application-profiles-rc, 0x0)
+openat(AT_FDCWD, /proc/modules, 0x0)
+openat(AT_FDCWD, /proc/sys/kernel/modprobe, 0x0)
+openat(AT_FDCWD, /proc/driver/nvidia/params, 0x0)
+openat(AT_FDCWD, /proc/driver/nvidia/params, 0x0)
+openat(AT_FDCWD, /dev/nvidiactl, 0x2)
+openat(AT_FDCWD, /sys/devices/system/memory/block_size_bytes, 0x0)
+ioctl(3 /dev/nvidiactl, 0xc8 NV_ESC_CARD_INFO, 0x1400000100)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00000101 NV0000_CTRL_CMD_SYSTEM_GET_BUILD_VERSION, 0x7ed8abfccb00)
+ioctl(3 /dev/nvidiactl, 0x29 NV_ESC_RM_FREE, 0xca057898)
+openat(AT_FDCWD, /proc/modules, 0x0)
+openat(AT_FDCWD, /proc/sys/kernel/modprobe, 0x0)
+openat(AT_FDCWD, /proc/driver/nvidia/params, 0x0)
+openat(AT_FDCWD, /proc/driver/nvidia/params, 0x0)
+openat(AT_FDCWD, /dev/nvidiactl, 0x2)
+openat(AT_FDCWD, /sys/devices/system/memory/block_size_bytes, 0x0)
+ioctl(3 /dev/nvidiactl, 0xc8 NV_ESC_CARD_INFO, 0x1400000100)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00000d04 NV0000_CTRL_CMD_CLIENT_SET_INHERITED_SHARE_POLICY, 0x7ed8abfcd074)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00000d04 NV0000_CTRL_CMD_CLIENT_SET_INHERITED_SHARE_POLICY, 0x7ed8abfcd074)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcd058)
+openat(AT_FDCWD, /sys/devices/system/cpu/online, 0x80000)
+openat(AT_FDCWD, /proc/self/status, 0x0)
+openat(AT_FDCWD, /sys/devices/system/node, 0x90800)
+openat(AT_FDCWD, /proc/modules, 0x0)
+openat(AT_FDCWD, /proc/sys/kernel/modprobe, 0x0)
+openat(AT_FDCWD, /proc/devices, 0x0)
+openat(AT_FDCWD, /dev/nvidia-uvm, 0x80002)
+openat(AT_FDCWD, /dev/nvidia-uvm, 0x80002)
+ioctl(4 /dev/nvidia-uvm, 0x01 , 0x00000000)
+ioctl(5 /dev/nvidia-uvm, 0x4b UVM_MM_INITIALIZE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x27 UVM_PAGEABLE_MEM_ACCESS, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00000214 NV0000_CTRL_CMD_GPU_GET_PROBED_IDS, 0x7ed8abfcb320)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00000a04 NV0000_CTRL_CMD_SYNC_GPU_BOOST_GROUP_INFO, 0x7ed8abfcab50)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00000215 NV0000_CTRL_CMD_GPU_ATTACH_IDS, 0x7ed8abfcb380)
+openat(AT_FDCWD, /proc/driver/nvidia/params, 0x0)
+openat(AT_FDCWD, /proc/driver/nvidia/params, 0x0)
+openat(AT_FDCWD, /dev/nvidia0, 0x80002)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xcb330101 NV_CONF_COMPUTE_CTRL_CMD_SYSTEM_GET_CAPABILITIES, 0x7ed8abfcb42b)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xcb330104 NV_CONF_COMPUTE_CTRL_CMD_SYSTEM_GET_GPUS_STATE, 0x7ed8abfcb42f)
+openat(AT_FDCWD, /etc/ld.so.cache, 0x80000)
+mmap(0x0, 0x439f, 0x1 PROT_EXEC, 0x2 MAP_ANON|MAP_PRIVATE, 6, 0x0)
+openat(AT_FDCWD, /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11-openssl3.so.535.104.05, 0x80000)
+mmap(0x0, 0x402350, 0x0 PROT_NONE, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x7ec2c8400000, 0x202350, 0x5 PROT_READ|PROT_EXEC, 0x812 MAP_ANON|MAP_SHARED|MAP_INHERIT, 6, 0x0)
+mmap(0x7ec2c8601000, 0x2000, 0x3 PROT_WRITE|PROT_EXEC, 0x812 MAP_ANON|MAP_PRIVATE|MAP_INHERIT, 6, 0x1000)
+openat(AT_FDCWD, /usr/lib/x86_64-linux-gnu/libcrypto.so.3, 0x80000)
+mmap(0x0, 0x4414c0, 0x1 PROT_EXEC, 0x802 MAP_ANON|MAP_PRIVATE|MAP_INHERIT, 6, 0x0)
+mmap(0x7ec2c7eb2000, 0x25d000, 0x5 PROT_READ|PROT_EXEC, 0x812 MAP_ANON|MAP_SHARED|MAP_INHERIT, 6, 0xb2000)
+mmap(0x7ec2c810f000, 0xd2000, 0x1 PROT_EXEC, 0x812 MAP_ANON|MAP_PRIVATE|MAP_INHERIT, 6, 0x30f000)
+mmap(0x7ec2c81e1000, 0x5e000, 0x3 PROT_WRITE|PROT_EXEC, 0x812 MAP_ANON|MAP_SHARED|MAP_INHERIT, 6, 0x3e0000)
+mmap(0x7ec2c823f000, 0x24c0, 0x3 PROT_WRITE|PROT_EXEC, 0x32 MAP_ANON|MAP_SHARED, ffffffff, 0x0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00000205 NV0000_CTRL_CMD_GPU_GET_ID_INFO_V2, 0x7ed8abfcb410)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00000201 NV0000_CTRL_CMD_GPU_GET_ATTACHED_IDS, 0x7ed8abfcb2e0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00000202 NV0000_CTRL_CMD_GPU_GET_ID_INFO, 0x7ed8abfcb2b0)
+openat(AT_FDCWD, /proc/driver/nvidia/params, 0x0)
+openat(AT_FDCWD, /proc/driver/nvidia/params, 0x0)
+openat(AT_FDCWD, /dev/nvidia0, 0x80002)
+ioctl(6 /dev/nvidia0, 0xc9 NV_ESC_REGISTER_FD, 0xffffffffffffffff)
+ioctl(6 /dev/nvidia0, 0xd7 NV_ESC_NUMA_INFO, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcb3e0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00801402 NV0080_CTRL_CMD_HOST_GET_CAPS_V2, 0x7ed8abfcb42d)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00800292 NV0080_CTRL_CMD_GPU_GET_CLASSLIST_V2, 0x7ed8abfcb190)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00800280 NV0080_CTRL_CMD_GPU_GET_NUM_SUBDEVICES, 0x7ed8abfcb42c)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00000202 NV0000_CTRL_CMD_GPU_GET_ID_INFO, 0x7ed8abfcb3c0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00000201 NV0000_CTRL_CMD_GPU_GET_ATTACHED_IDS, 0x7ed8abfcb2e0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00000202 NV0000_CTRL_CMD_GPU_GET_ID_INFO, 0x7ed8abfcb2b0)
+openat(AT_FDCWD, /proc/driver/nvidia/params, 0x0)
+openat(AT_FDCWD, /proc/driver/nvidia/params, 0x0)
+openat(AT_FDCWD, /dev/nvidia0, 0x80002)
+ioctl(7 /dev/nvidia0, 0xc9 NV_ESC_REGISTER_FD, 0xffffffffffffffff)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcb3bc)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080018b NV2080_CTRL_CMD_GPU_GET_ACTIVE_PARTITION_IDS, 0x7ed8abfcb400)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080014a NV2080_CTRL_CMD_GPU_GET_GID_INFO, 0x7ed8abfcb320)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00800289 NV0080_CTRL_CMD_GPU_GET_VIRTUALIZATION_MODE, 0x7ed8abfcb24c)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20808161 , 0x7ed8abfcae90)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20801303 NV2080_CTRL_CMD_FB_GET_INFO_V2, 0x7ed8abfcb090)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20800102 NV2080_CTRL_CMD_GPU_GET_INFO_V2, 0x7ed8abfcb060)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20801701 NV2080_CTRL_CMD_MC_GET_ARCH_INFO, 0x7ed8abfcb230)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20801823 NV2080_CTRL_CMD_BUS_GET_INFO_V2, 0x7ed8abfcb070)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20801801 NV2080_CTRL_CMD_BUS_GET_PCI_INFO, 0x7ed8abfcaf30)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20801823 NV2080_CTRL_CMD_BUS_GET_INFO_V2, 0x7ed8abfcb070)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20801803 NV2080_CTRL_CMD_BUS_GET_PCI_BAR_INFO, 0x7ed8abfcafa0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080182a NV2080_CTRL_CMD_BUS_GET_PCIE_SUPPORTED_GPU_ATOMICS, 0x7ed8abfcaf30)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080012f NV2080_CTRL_CMD_GPU_QUERY_ECC_STATUS, 0x7ed8abfcae60)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20801303 NV2080_CTRL_CMD_FB_GET_INFO_V2, 0x7ed8abfcb080)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xcb33010b NV_CONF_COMPUTE_CTRL_CMD_GPU_GET_NUM_SECURE_CHANNELS, 0x7ed8abfcb234)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20800170 NV2080_CTRL_CMD_GPU_GET_ENGINES_V2, 0x7ed8abfcb130)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20800119 NV2080_CTRL_CMD_GPU_GET_SIMULATION_INFO, 0x7ed8abfcb23c)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0000027b NV0000_CTRL_CMD_GPU_GET_MEMOP_ENABLE, 0x7ed8abfcb23c)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x208001a3 NV2080_CTRL_CMD_GET_GPU_FABRIC_PROBE_INFO, 0x7ed8abfcb220)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080028b , 0x7ed8abfcb17f)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20801201 NV2080_CTRL_CMD_GR_GET_INFO, 0x7ed8abfcaf90)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080122a NV2080_CTRL_CMD_GR_GET_GPC_MASK, 0x7ed8abfcb160)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080122b NV2080_CTRL_CMD_GR_GET_TPC_MASK, 0x7ed8abfcb160)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080122b NV2080_CTRL_CMD_GR_GET_TPC_MASK, 0x7ed8abfcb160)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080122b NV2080_CTRL_CMD_GR_GET_TPC_MASK, 0x7ed8abfcb160)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080122b NV2080_CTRL_CMD_GR_GET_TPC_MASK, 0x7ed8abfcb160)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080122b NV2080_CTRL_CMD_GR_GET_TPC_MASK, 0x7ed8abfcb160)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080122b NV2080_CTRL_CMD_GR_GET_TPC_MASK, 0x7ed8abfcb160)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080122b NV2080_CTRL_CMD_GR_GET_TPC_MASK, 0x7ed8abfcb160)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080122b NV2080_CTRL_CMD_GR_GET_TPC_MASK, 0x7ed8abfcb160)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20801227 NV2080_CTRL_CMD_GR_GET_CAPS_V2, 0x7ed8abfcb150)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20802a0a NV2080_CTRL_CMD_CE_GET_ALL_CAPS, 0x7ed8abfcb110)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20801230 NV2080_CTRL_CMD_GR_GET_SM_ISSUE_RATE_MODIFIER, 0x7ed8abfcb160)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20800195 NV2080_CTRL_CMD_GPU_GET_COMPUTE_POLICY_CONFIG, 0x7ed8abfcb060)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080121b NV2080_CTRL_CMD_GR_GET_GLOBAL_SM_ORDER, 0x7ed8abfc8cd0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00801307 NV0080_CTRL_CMD_FB_GET_CAPS_V2, 0x7ed8abfcb26d)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20801303 NV2080_CTRL_CMD_FB_GET_INFO_V2, 0x7ed8abfcb0b0)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00000d01 NV0000_CTRL_CMD_CLIENT_GET_ADDR_SPACE_TYPE, 0x7ed8abfcb0e0)
+openat(AT_FDCWD, /dev/nvidia0, 0x80002)
+ioctl(3 /dev/nvidiactl, 0x4e NV_ESC_RM_MAP_MEMORY, 0x00000000)
+mmap(0x0, 0x10000, 0x2 PROT_WRITE, 0x1 MAP_FILE|MAP_PRIVATE, 8, 0x0)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcb28e)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00000d01 NV0000_CTRL_CMD_CLIENT_GET_ADDR_SPACE_TYPE, 0x7ed8abfcb0e0)
+openat(AT_FDCWD, /dev/nvidia0, 0x80002)
+ioctl(3 /dev/nvidiactl, 0x4e NV_ESC_RM_MAP_MEMORY, 0x00000000)
+mmap(0x0, 0x10000, 0x2 PROT_WRITE, 0x1 MAP_FILE|MAP_PRIVATE, 8, 0x0)
+ioctl(3 /dev/nvidiactl, 0x5e NV_ESC_RM_UPDATE_DEVICE_MAPPING_INFO, 0xc0000b0000)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x90e60102 NV90E6_CTRL_CMD_MASTER_GET_VIRTUAL_FUNCTION_ERROR_CONT_INTR_MASK, 0x7ed8abfcb268)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20803601 NV2080_CTRL_CMD_GSP_GET_FEATURES, 0x7ed8abfcb200)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcb1e0)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcb1e0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20800111 NV2080_CTRL_CMD_GPU_GET_SHORT_NAME_STRING, 0x7ed8abfcb250)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20800110 NV2080_CTRL_CMD_GPU_GET_NAME_STRING, 0x7ed8abfcb180)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080014a NV2080_CTRL_CMD_GPU_GET_GID_INFO, 0x7ed8abfcb190)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20800131 NV2080_CTRL_CMD_GPU_QUERY_COMPUTE_MODE_RULES, 0x7ed8abfcb29c)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20808159 , 0x7ed8abfcb150)
+mmap(0x0, 0x204000000, 0x0 PROT_NONE, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080220c NV2080_CTRL_CMD_RC_RELEASE_WATCHDOG_REQUESTS, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20802210 NV2080_CTRL_CMD_RC_SOFT_DISABLE_WATCHDOG, 0x00000000)
+mmap(0x0, 0x2a000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080182b NV2080_CTRL_CMD_BUS_GET_C2C_INFO, 0x7ed8abfcc5e0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20803002 NV2080_CTRL_CMD_NVLINK_GET_NVLINK_STATUS, 0x7ed8abfcaef0)
+mmap(0x0, 0xa1000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+ioctl(4 /dev/nvidia-uvm, 0x25 UVM_REGISTER_GPU, 0xffffffff00000000)
+ioctl(4 /dev/nvidia-uvm, 0x17 UVM_CREATE_RANGE_GROUP, 0x00000001)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+mmap(0x200000000, 0x100200000, 0x0 PROT_NONE, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1ffff000, 0x0 PROT_NONE, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x2a1000, 0x0 PROT_NONE, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x801000, 0x0 PROT_NONE, 0x20022 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+openat(AT_FDCWD, /proc/self/task/28/comm, 0x2)
+cuDeviceGet
+cuCtxCreate
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20803601 NV2080_CTRL_CMD_GSP_GET_FEATURES, 0x7ed8abfcc9d0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080200a NV2080_CTRL_CMD_PERF_BOOST, 0x7ed8abfcc9e8)
+mmap(0x0, 0x801000, 0x0 PROT_NONE, 0x20022 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+openat(AT_FDCWD, /proc/self/task/29/comm, 0x2)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20800145 NV2080_CTRL_CMD_GPU_ACQUIRE_COMPUTE_MODE_RESERVATION, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x19 UVM_REGISTER_GPU_VASPACE, 0xc1d0002f00000003)
+mmap(0x0, 0x2a1000, 0x0 PROT_NONE, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x10000000000, 0x4000000, 0x0 PROT_NONE, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x41000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x81000, 0x3 PROT_EXEC|PROT_WRITE, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x81000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x81000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_PRIVATE, ffffffff, 0x0)
+mmap(0x0, 0x3fff000, 0x0 PROT_NONE, 0x22 MAP_ANON|MAP_PRIVATE, ffffffff, 0x0)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc630)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+openat(AT_FDCWD, /usr/lib/ssl/openssl.cnf, 0x0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+mmap(0x0, 0x49000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00000d01 NV0000_CTRL_CMD_CLIENT_GET_ADDR_SPACE_TYPE, 0x7ed8abfcbae0)
+openat(AT_FDCWD, /dev/nvidiactl, 0x80002)
+ioctl(3 /dev/nvidiactl, 0x4e NV_ESC_RM_MAP_MEMORY, 0x00000000)
+mmap(0x200800000, 0x200000, 0x3 PROT_WRITE|PROT_EXEC, 0x11 MAP_FILE|MAP_SHARED, b, 0x0)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xa06c0101 NVA06C_CTRL_CMD_GPFIFO_SCHEDULE, 0x7ed8abfcc84e)
+openat(AT_FDCWD, /dev/nvidia0, 0x80002)
+ioctl(11 /dev/nvidia0, 0xc9 NV_ESC_REGISTER_FD, 0x00000000)
+ioctl(11 /dev/nvidia0, 0xce NV_ESC_ALLOC_OS_EVENT, 0x00000003)
+ioctl(11 /dev/nvidia0, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc6b0)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc630)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+mmap(0x0, 0x49000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x49000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xa06c0101 NVA06C_CTRL_CMD_GPFIFO_SCHEDULE, 0x7ed8abfcc84e)
+openat(AT_FDCWD, /dev/nvidia0, 0x80002)
+ioctl(13 /dev/nvidia0, 0xc9 NV_ESC_REGISTER_FD, 0x00000000)
+ioctl(13 /dev/nvidia0, 0xce NV_ESC_ALLOC_OS_EVENT, 0x100000003)
+ioctl(13 /dev/nvidia0, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc6b0)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc630)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_PRIVATE, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_PRIVATE, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_EXEC|PROT_WRITE, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_PRIVATE, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_EXEC|PROT_WRITE, 0x22 MAP_ANON|MAP_PRIVATE, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xa06c0101 NVA06C_CTRL_CMD_GPFIFO_SCHEDULE, 0x7ed8abfcc84e)
+openat(AT_FDCWD, /dev/nvidia0, 0x80002)
+ioctl(15 /dev/nvidia0, 0xc9 NV_ESC_REGISTER_FD, 0x00000000)
+ioctl(15 /dev/nvidia0, 0xce NV_ESC_ALLOC_OS_EVENT, 0x100000003)
+ioctl(15 /dev/nvidia0, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc6b0)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc630)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_EXEC|PROT_WRITE, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xa06c0101 NVA06C_CTRL_CMD_GPFIFO_SCHEDULE, 0x7ed8abfcc84e)
+openat(AT_FDCWD, /dev/nvidia0, 0x80002)
+ioctl(17 /dev/nvidia0, 0xc9 NV_ESC_REGISTER_FD, 0x00000000)
+ioctl(17 /dev/nvidia0, 0xce NV_ESC_ALLOC_OS_EVENT, 0x100000003)
+ioctl(17 /dev/nvidia0, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc6b0)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc630)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc634)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x401000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_EXEC|PROT_WRITE, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20801218 NV2080_CTRL_CMD_GR_GET_CTX_BUFFER_SIZE, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x401000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_PRIVATE, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20801218 NV2080_CTRL_CMD_GR_GET_CTX_BUFFER_SIZE, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x401000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20801218 NV2080_CTRL_CMD_GR_GET_CTX_BUFFER_SIZE, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x401000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20801218 NV2080_CTRL_CMD_GR_GET_CTX_BUFFER_SIZE, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x401000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_EXEC|PROT_WRITE, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20801218 NV2080_CTRL_CMD_GR_GET_CTX_BUFFER_SIZE, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x401000, 0x3 PROT_EXEC|PROT_WRITE, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20801218 NV2080_CTRL_CMD_GR_GET_CTX_BUFFER_SIZE, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x401000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20801218 NV2080_CTRL_CMD_GR_GET_CTX_BUFFER_SIZE, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x401000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_PRIVATE, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20801218 NV2080_CTRL_CMD_GR_GET_CTX_BUFFER_SIZE, 0x7ed8abfcc400)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xa06c0101 NVA06C_CTRL_CMD_GPFIFO_SCHEDULE, 0x7ed8abfcc84e)
+openat(AT_FDCWD, /dev/nvidia0, 0x80002)
+ioctl(19 /dev/nvidia0, 0xc9 NV_ESC_REGISTER_FD, 0x00000000)
+ioctl(19 /dev/nvidia0, 0xce NV_ESC_ALLOC_OS_EVENT, 0x00000003)
+ioctl(19 /dev/nvidia0, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc6b0)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc630)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_PRIVATE, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xa06c0101 NVA06C_CTRL_CMD_GPFIFO_SCHEDULE, 0x7ed8abfcc84e)
+openat(AT_FDCWD, /dev/nvidia0, 0x80002)
+ioctl(21 /dev/nvidia0, 0xc9 NV_ESC_REGISTER_FD, 0x00000000)
+ioctl(21 /dev/nvidia0, 0xce NV_ESC_ALLOC_OS_EVENT, 0x100000003)
+ioctl(21 /dev/nvidia0, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc6b0)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc630)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_EXEC|PROT_WRITE, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xa06c0101 NVA06C_CTRL_CMD_GPFIFO_SCHEDULE, 0x7ed8abfcc84e)
+openat(AT_FDCWD, /dev/nvidia0, 0x80002)
+ioctl(23 /dev/nvidia0, 0xc9 NV_ESC_REGISTER_FD, 0x00000000)
+ioctl(23 /dev/nvidia0, 0xce NV_ESC_ALLOC_OS_EVENT, 0x100000003)
+ioctl(23 /dev/nvidia0, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc6b0)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc630)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00000d01 NV0000_CTRL_CMD_CLIENT_GET_ADDR_SPACE_TYPE, 0x7ed8abfcb7d0)
+openat(AT_FDCWD, /dev/nvidiactl, 0x80002)
+ioctl(3 /dev/nvidiactl, 0x4e NV_ESC_RM_MAP_MEMORY, 0x00000000)
+mmap(0x206800000, 0x200000, 0x3 PROT_EXEC|PROT_WRITE, 0x11 MAP_FILE|MAP_SHARED, 19, 0x0)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00000d01 NV0000_CTRL_CMD_CLIENT_GET_ADDR_SPACE_TYPE, 0x7ed8abfcb610)
+openat(AT_FDCWD, /dev/nvidiactl, 0x80002)
+ioctl(3 /dev/nvidiactl, 0x4e NV_ESC_RM_MAP_MEMORY, 0x00000000)
+mmap(0x206a00000, 0x200000, 0x3 PROT_WRITE|PROT_EXEC, 0x11 MAP_FILE|MAP_PRIVATE, 19, 0x0)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_PRIVATE, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x20803125 NV2080_CTRL_CMD_FLCN_GET_CTX_BUFFER_SIZE, 0x7ed8abfcc400)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xa06c0101 NVA06C_CTRL_CMD_GPFIFO_SCHEDULE, 0x7ed8abfcc84e)
+openat(AT_FDCWD, /dev/nvidia0, 0x80002)
+ioctl(25 /dev/nvidia0, 0xc9 NV_ESC_REGISTER_FD, 0x00000000)
+ioctl(25 /dev/nvidia0, 0xce NV_ESC_ALLOC_OS_EVENT, 0x200000003)
+ioctl(25 /dev/nvidia0, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc6b0)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc630)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_PRIVATE, ffffffff, 0x0)
+mmap(0x0, 0x1000, 0x3 PROT_WRITE|PROT_EXEC, 0x21 MAP_FILE|MAP_COPY, ffffffff, 0x0)
+ioctl(6 /dev/nvidia0, 0x27 NV_ESC_RM_ALLOC_MEMORY, 0x40001010)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc2b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x0080170d NV0080_CTRL_CMD_FIFO_GET_CHANNELLIST, 0x7ed8abfcc400)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc3c8)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0101 NVC36F_CTRL_GET_CLASS_ENGINEID, 0x7ed8abfcc3b0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc56f010b NVC56F_CTRL_CMD_GET_KMB, 0x7ed8abfcc360)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xc36f0108 NVC36F_CTRL_CMD_GPFIFO_GET_WORK_SUBMIT_TOKEN, 0x7ed8abfcc40c)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(4 /dev/nvidia-uvm, 0x1b UVM_REGISTER_CHANNEL, 0xc1d0002f00000003)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0xa06c0101 NVA06C_CTRL_CMD_GPFIFO_SCHEDULE, 0x7ed8abfcc84e)
+openat(AT_FDCWD, /dev/nvidia0, 0x80002)
+ioctl(27 /dev/nvidia0, 0xc9 NV_ESC_REGISTER_FD, 0x00000000)
+ioctl(27 /dev/nvidia0, 0xce NV_ESC_ALLOC_OS_EVENT, 0x5b00000003)
+ioctl(27 /dev/nvidia0, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc6b0)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00000d01 NV0000_CTRL_CMD_CLIENT_GET_ADDR_SPACE_TYPE, 0x7ed8abfcbcb0)
+openat(AT_FDCWD, /dev/nvidiactl, 0x80002)
+ioctl(3 /dev/nvidiactl, 0x4e NV_ESC_RM_MAP_MEMORY, 0x00000000)
+mmap(0x7ec0a4400000, 0x200000, 0x3 PROT_WRITE|PROT_EXEC, 0x11 MAP_FILE|MAP_PRIVATE, 1d, 0x0)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00000d01 NV0000_CTRL_CMD_CLIENT_GET_ADDR_SPACE_TYPE, 0x7ed8abfcbcb0)
+openat(AT_FDCWD, /dev/nvidiactl, 0x80002)
+ioctl(3 /dev/nvidiactl, 0x4e NV_ESC_RM_MAP_MEMORY, 0x00000000)
+mmap(0x7ec0a4600000, 0x800000, 0x3 PROT_WRITE|PROT_EXEC, 0x11 MAP_FILE|MAP_SHARED, 1d, 0x0)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x49000, 0x3 PROT_EXEC|PROT_WRITE, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080012f NV2080_CTRL_CMD_GPU_QUERY_ECC_STATUS, 0x7ed8abfcc4e0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080012f NV2080_CTRL_CMD_GPU_QUERY_ECC_STATUS, 0x7ed8abfcc1e0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080012f NV2080_CTRL_CMD_GPU_QUERY_ECC_STATUS, 0x7ed8abfcc1e0)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x2080012f NV2080_CTRL_CMD_GPU_QUERY_ECC_STATUS, 0x7ed8abfcc240)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x49000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x17 UVM_CREATE_RANGE_GROUP, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x17 UVM_CREATE_RANGE_GROUP, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x17 UVM_CREATE_RANGE_GROUP, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x17 UVM_CREATE_RANGE_GROUP, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x17 UVM_CREATE_RANGE_GROUP, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x17 UVM_CREATE_RANGE_GROUP, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x17 UVM_CREATE_RANGE_GROUP, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00000d01 NV0000_CTRL_CMD_CLIENT_GET_ADDR_SPACE_TYPE, 0x7ed8abfcba70)
+openat(AT_FDCWD, /dev/nvidiactl, 0x80002)
+ioctl(3 /dev/nvidiactl, 0x4e NV_ESC_RM_MAP_MEMORY, 0x00000000)
+mmap(0x7ec0a5400000, 0x200000, 0x3 PROT_WRITE|PROT_EXEC, 0x11 MAP_FILE|MAP_PRIVATE, 1e, 0x0)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_EXEC|PROT_WRITE, 0x22 MAP_ANON|MAP_PRIVATE, ffffffff, 0x0)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2a NV_ESC_RM_CONTROL, 0x00000d01 NV0000_CTRL_CMD_CLIENT_GET_ADDR_SPACE_TYPE, 0x7ed8abfcba70)
+openat(AT_FDCWD, /dev/nvidiactl, 0x80002)
+ioctl(3 /dev/nvidiactl, 0x4e NV_ESC_RM_MAP_MEMORY, 0x00000000)
+mmap(0x7ec0a5800000, 0x200000, 0x3 PROT_EXEC|PROT_WRITE, 0x11 MAP_FILE|MAP_SHARED, 1e, 0x0)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x101000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x33000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x49000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x3fff000, 0x0 PROT_NONE, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x7ec0a0000000, 0x200000, 0x3 PROT_WRITE|PROT_EXEC, 0x11 MAP_FILE|MAP_SHARED, 4, 0x7ec0a0000000)
+ioctl(4 /dev/nvidia-uvm, 0x48 UVM_VALIDATE_VA_RANGE, 0x7ec0a0000000, 0x200000, 0x0)
+00069000-0006e000 r-xp 00000000 00:00 0                                  [usertrap]
+200000000-200800000 ---p 00000000 00:00 0
+200800000-200a00000 rw-s 00000000 00:14 18                               /dev/nvidiactl
+200a00000-206800000 ---p 00000000 00:00 0
+206800000-206a00000 rw-s 00000000 00:14 18                               /dev/nvidiactl
+206a00000-206c00000 rw-s 00000000 00:14 18                               /dev/nvidiactl
+206c00000-300200000 ---p 00000000 00:00 0
+10000000000-10004000000 ---p 00000000 00:00 0
+55b7d1675000-55b7d167f000 r--p 00000000 00:1e 3                          /libcuda-debug/cuMemory/cuMemory
+55b7d167f000-55b7d16f6000 r-xp 0000a000 00:1e 3                          /libcuda-debug/cuMemory/cuMemory
+55b7d16f6000-55b7d1719000 r--p 00081000 00:1e 3                          /libcuda-debug/cuMemory/cuMemory
+55b7d171a000-55b7d171f000 r--p 000a4000 00:1e 3                          /libcuda-debug/cuMemory/cuMemory
+55b7d171f000-55b7d1720000 rw-p 000a9000 00:1e 3                          /libcuda-debug/cuMemory/cuMemory
+55b7d1720000-55b7d1721000 rw-p 00000000 00:00 0
+55b7d1721000-55b7d1bfd000 rw-p 00000000 00:00 0                          [heap]
+7ec0a0000000-7ec0a0200000 rw-s 7ec0a0000000 00:14 19                     /dev/nvidia-uvm
+7ec0a0200000-7ec0a2000000 ---p 00000000 00:00 0
+7ec0a4000000-7ec0a4400000 ---p 00000000 00:00 0
+7ec0a4400000-7ec0a4600000 rw-s 00000000 00:14 18                         /dev/nvidiactl
+7ec0a4600000-7ec0a4e00000 rw-s 00000000 00:14 18                         /dev/nvidiactl
+7ec0a4e00000-7ec0a5400000 ---p 00000000 00:00 0
+7ec0a5400000-7ec0a5600000 rw-s 00000000 00:14 18                         /dev/nvidiactl
+7ec0a5600000-7ec0a5800000 ---p 00000000 00:00 0
+7ec0a5800000-7ec0a5a00000 rw-s 00000000 00:14 18                         /dev/nvidiactl
+7ec0a5a00000-7ec0a6000000 ---p 00000000 00:00 0
+7ec0a60f9000-7ec0a6c01000 rw-p 00000000 00:00 0
+7ec0a6cff000-7ec0a7201000 rw-p 00000000 00:00 0
+7ec0a72ff000-7ec0a7801000 rw-p 00000000 00:00 0
+7ec0a78ff000-7ec0a7e01000 rw-p 00000000 00:00 0
+7ec0a7eff000-7ec0a8021000 rw-p 00000000 00:00 0
+7ec0a8021000-7ec0ac000000 ---p 00000000 00:00 0
+7ec0ac000000-7ec0ac021000 rw-p 00000000 00:00 0
+7ec0ac021000-7ec0c0000000 ---p 00000000 00:00 0
+7ec0c0000000-7ec0c0401000 rw-p 00000000 00:00 0
+7ec0c04ff000-7ec0c0a01000 rw-p 00000000 00:00 0
+7ec0c0aff000-7ec0c1001000 rw-p 00000000 00:00 0
+7ec0c10ff000-7ec0c1601000 rw-p 00000000 00:00 0
+7ec0c16f1000-7ec0c2600000 rw-p 00000000 00:00 0
+7ec0c2600000-7ec0c28a1000 ---p 00000000 00:00 0
+7ec0c28ff000-7ec0c2a00000 rw-p 00000000 00:00 0
+7ec0c2a00000-7ec0c2a01000 ---p 00000000 00:00 0
+7ec0c2a01000-7ec0c3201000 rw-p 00000000 00:00 0
+7ec0c3224000-7ec0c3400000 rw-p 00000000 00:00 0
+7ec0c3400000-7ec0c3401000 ---p 00000000 00:00 0
+7ec0c3401000-7ec0c3c01000 rw-p 00000000 00:00 0
+7ec0c3c24000-7ec0c3e00000 rw-p 00000000 00:00 0
+7ec0c3e00000-7ec2c7e00000 ---p 00000000 00:00 0
+7ec2c7e00000-7ec2c7eb2000 r--p 00000000 00:1a 92                         /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7ec2c7eb2000-7ec2c810f000 r-xp 000b2000 00:1a 92                         /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7ec2c810f000-7ec2c81e1000 r--p 0030f000 00:1a 92                         /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7ec2c81e1000-7ec2c823c000 r--p 003e0000 00:1a 92                         /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7ec2c823c000-7ec2c823f000 rw-p 0043b000 00:1a 92                         /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7ec2c823f000-7ec2c8242000 rw-p 00000000 00:00 0
+7ec2c824b000-7ec2c8400000 rw-p 00000000 00:00 0
+7ec2c8400000-7ec2c8402000 r-xp 00000000 00:1a 91                         /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11-openssl3.so.535.104.05
+7ec2c8402000-7ec2c8601000 ---p 00002000 00:1a 91                         /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11-openssl3.so.535.104.05
+7ec2c8601000-7ec2c8602000 r--p 00001000 00:1a 91                         /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11-openssl3.so.535.104.05
+7ec2c8602000-7ec2c8603000 rw-p 00002000 00:1a 91                         /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11-openssl3.so.535.104.05
+7ec2c861c000-7ec2c875f000 rw-p 00000000 00:00 0
+7ec2c875f000-7ec2c8a00000 ---p 00000000 00:00 0
+7ec2c8a00000-7ec2c8a28000 r--p 00000000 00:1a 31                         /usr/lib/x86_64-linux-gnu/libc.so.6
+7ec2c8a28000-7ec2c8bbd000 r-xp 00028000 00:1a 31                         /usr/lib/x86_64-linux-gnu/libc.so.6
+7ec2c8bbd000-7ec2c8c15000 r--p 001bd000 00:1a 31                         /usr/lib/x86_64-linux-gnu/libc.so.6
+7ec2c8c15000-7ec2c8c16000 ---p 00215000 00:1a 31                         /usr/lib/x86_64-linux-gnu/libc.so.6
+7ec2c8c16000-7ec2c8c1a000 r--p 00215000 00:1a 31                         /usr/lib/x86_64-linux-gnu/libc.so.6
+7ec2c8c1a000-7ec2c8c1c000 rw-p 00219000 00:1a 31                         /usr/lib/x86_64-linux-gnu/libc.so.6
+7ec2c8c1c000-7ec2c8c29000 rw-p 00000000 00:00 0
+7ec2c8c3f000-7ec2c8c40000 rw-s 00000000 00:05 38                         /dev/zero (deleted)
+7ec2c8c40000-7ec2c8c41000 rw-s 00000000 00:05 37                         /dev/zero (deleted)
+7ec2c8c41000-7ec2c8c42000 rw-s 00000000 00:05 36                         /dev/zero (deleted)
+7ec2c8c42000-7ec2c8c43000 rw-s 00000000 00:05 35                         /dev/zero (deleted)
+7ec2c8c43000-7ec2c8c44000 rw-s 00000000 00:05 34                         /dev/zero (deleted)
+7ec2c8c44000-7ec2c8c45000 rw-s 00000000 00:05 33                         /dev/zero (deleted)
+7ec2c8c45000-7ec2c8c46000 rw-s 00000000 00:05 32                         /dev/zero (deleted)
+7ec2c8c46000-7ec2c8c47000 rw-s 00000000 00:05 31                         /dev/zero (deleted)
+7ec2c8c47000-7ec2c8c48000 rw-s 00000000 00:05 30                         /dev/zero (deleted)
+7ec2c8c48000-7ec2c8c49000 rw-s 00000000 00:05 29                         /dev/zero (deleted)
+7ec2c8c49000-7ec2c8c4a000 rw-s 00000000 00:05 28                         /dev/zero (deleted)
+7ec2c8c4a000-7ec2c8c4b000 rw-s 00000000 00:05 27                         /dev/zero (deleted)
+7ec2c8c4b000-7ec2c8c4c000 rw-s 00000000 00:05 26                         /dev/zero (deleted)
+7ec2c8c4c000-7ec2c8c4d000 rw-s 00000000 00:05 25                         /dev/zero (deleted)
+7ec2c8c4d000-7ec2c8c4e000 rw-s 00000000 00:05 24                         /dev/zero (deleted)
+7ec2c8c4e000-7ec2c8d19000 rw-p 00000000 00:00 0
+7ec2c8d19000-7ec2c8d27000 r--p 00000000 00:1a 86                         /usr/lib/x86_64-linux-gnu/libm.so.6
+7ec2c8d27000-7ec2c8da3000 r-xp 0000e000 00:1a 86                         /usr/lib/x86_64-linux-gnu/libm.so.6
+7ec2c8da3000-7ec2c8dfe000 r--p 0008a000 00:1a 86                         /usr/lib/x86_64-linux-gnu/libm.so.6
+7ec2c8dfe000-7ec2c8dff000 r--p 000e4000 00:1a 86                         /usr/lib/x86_64-linux-gnu/libm.so.6
+7ec2c8dff000-7ec2c8e00000 rw-p 000e5000 00:1a 86                         /usr/lib/x86_64-linux-gnu/libm.so.6
+7ec2c8e00000-7ec2c8ee1000 r--p 00000000 00:1a 85                         /usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7ec2c8ee1000-7ec2c93f9000 r-xp 000e1000 00:1a 85                         /usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7ec2c93f9000-7ec2ca8d7000 r--p 005f9000 00:1a 85                         /usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7ec2ca8d7000-7ec2ca8f0000 r--p 01ad6000 00:1a 85                         /usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7ec2ca8f0000-7ec2ca9f6000 rw-p 01aef000 00:1a 85                         /usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7ec2ca9f6000-7ec2caa5d000 rw-p 00000000 00:00 0
+7ec2caa5d000-7ec2caa5e000 rw-s 00000000 00:05 23                         /dev/zero (deleted)
+7ec2caa5e000-7ec2caa5f000 rw-s 00000000 00:05 22                         /dev/zero (deleted)
+7ec2caa5f000-7ec2caa60000 rw-s 00000000 00:05 21                         /dev/zero (deleted)
+7ec2caa60000-7ec2caa61000 rw-s 00000000 00:05 20                         /dev/zero (deleted)
+7ec2caa61000-7ec2caa62000 rw-s 00000000 00:05 19                         /dev/zero (deleted)
+7ec2caa62000-7ec2caa63000 rw-s 00000000 00:05 18                         /dev/zero (deleted)
+7ec2caa63000-7ec2caa64000 rw-s 00000000 00:05 17                         /dev/zero (deleted)
+7ec2caa64000-7ec2caa65000 rw-s 00000000 00:05 16                         /dev/zero (deleted)
+7ec2caa65000-7ec2caa66000 rw-s 00000000 00:05 15                         /dev/zero (deleted)
+7ec2caa66000-7ec2caa67000 rw-s 00000000 00:05 14                         /dev/zero (deleted)
+7ec2caa67000-7ec2caa68000 rw-s 00000000 00:05 13                         /dev/zero (deleted)
+7ec2caa68000-7ec2caa69000 rw-s 00000000 00:05 12                         /dev/zero (deleted)
+7ec2caa69000-7ec2caa6a000 rw-s 00000000 00:05 11                         /dev/zero (deleted)
+7ec2caa6a000-7ec2caa6b000 rw-s 00000000 00:05 10                         /dev/zero (deleted)
+7ec2caa6b000-7ec2caa6c000 rw-s 00000000 00:05 9                          /dev/zero (deleted)
+7ec2caa6c000-7ec2caa6d000 rw-s 00000000 00:05 8                          /dev/zero (deleted)
+7ec2caa6d000-7ec2caa7d000 -w-s 00000000 00:14 20                         /dev/nvidia0
+7ec2caa7d000-7ec2caa8d000 -w-s 00000000 00:14 20                         /dev/nvidia0
+7ec2caa8d000-7ec2caa92000 rw-p 00000000 00:00 0
+7ec2caa92000-7ec2caa93000 r--p 00000000 00:1a 89                         /usr/lib/x86_64-linux-gnu/librt.so.1
+7ec2caa93000-7ec2caa94000 r-xp 00001000 00:1a 89                         /usr/lib/x86_64-linux-gnu/librt.so.1
+7ec2caa94000-7ec2caa95000 r--p 00002000 00:1a 89                         /usr/lib/x86_64-linux-gnu/librt.so.1
+7ec2caa95000-7ec2caa96000 r--p 00002000 00:1a 89                         /usr/lib/x86_64-linux-gnu/librt.so.1
+7ec2caa96000-7ec2caa97000 rw-p 00003000 00:1a 89                         /usr/lib/x86_64-linux-gnu/librt.so.1
+7ec2caa97000-7ec2caa99000 rw-p 00000000 00:00 0
+7ec2caa99000-7ec2caa9a000 r--p 00000000 00:1a 88                         /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7ec2caa9a000-7ec2caa9b000 r-xp 00001000 00:1a 88                         /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7ec2caa9b000-7ec2caa9c000 r--p 00002000 00:1a 88                         /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7ec2caa9c000-7ec2caa9d000 r--p 00002000 00:1a 88                         /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7ec2caa9d000-7ec2caa9e000 rw-p 00003000 00:1a 88                         /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7ec2caa9e000-7ec2caa9f000 r--p 00000000 00:1a 87                         /usr/lib/x86_64-linux-gnu/libdl.so.2
+7ec2caa9f000-7ec2caaa0000 r-xp 00001000 00:1a 87                         /usr/lib/x86_64-linux-gnu/libdl.so.2
+7ec2caaa0000-7ec2caaa1000 r--p 00002000 00:1a 87                         /usr/lib/x86_64-linux-gnu/libdl.so.2
+7ec2caaa1000-7ec2caaa2000 r--p 00002000 00:1a 87                         /usr/lib/x86_64-linux-gnu/libdl.so.2
+7ec2caaa2000-7ec2caaa3000 rw-p 00003000 00:1a 87                         /usr/lib/x86_64-linux-gnu/libdl.so.2
+7ec2caaa3000-7ec2caaa4000 rw-s 00000000 00:05 7                          /dev/zero (deleted)
+7ec2caaa4000-7ec2caaa5000 rw-s 00000000 00:05 6                          /dev/zero (deleted)
+7ec2caaa5000-7ec2caaa6000 rw-s 00000000 00:05 5                          /dev/zero (deleted)
+7ec2caaa6000-7ec2caaa7000 rw-s 00000000 00:05 4                          /dev/zero (deleted)
+7ec2caaa7000-7ec2caaa8000 rw-s 00000000 00:05 3                          /dev/zero (deleted)
+7ec2caaa8000-7ec2caaaa000 rw-p 00000000 00:00 0
+7ec2caaaa000-7ec2caaab000 r--p 00000000 00:00 0                          [vvar]
+7ec2caaab000-7ec2caaad000 r-xp 00000000 00:00 0
+7ec2caaad000-7ec2caaaf000 r--p 00000000 00:1a 26                         /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ec2caaaf000-7ec2caad9000 r-xp 00002000 00:1a 26                         /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ec2caad9000-7ec2caae4000 r--p 0002c000 00:1a 26                         /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ec2caae4000-7ec2caae5000 rw-s 00000000 00:05 2                          /dev/zero (deleted)
+7ec2caae5000-7ec2caae7000 r--p 00037000 00:1a 26                         /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ec2caae7000-7ec2caae9000 rw-p 00039000 00:1a 26                         /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ed8ab7ce000-7ed8abfce000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+ioctl(4 /dev/nvidia-uvm, 0x2d UVM_DISABLE_READ_DUPLICATION, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x41 UVM_MAP_DYNAMIC_PARALLELISM_REGION, 0x1b8ff9727d98a76b)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x3fff000, 0x0 PROT_NONE, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+mmap(0x0, 0x83000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+mmap(0x0, 0x201000, 0x3 PROT_WRITE|PROT_EXEC, 0x22 MAP_ANON|MAP_COPY, ffffffff, 0x0)
+ioctl(3 /dev/nvidiactl, 0x4a NV_ESC_RM_VID_HEAP_CONTROL, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x49 UVM_CREATE_EXTERNAL_RANGE, 0x00000000)
+ioctl(4 /dev/nvidia-uvm, 0x21 UVM_MAP_EXTERNAL_ALLOCATION, 0x00000000)
+ioctl(3 /dev/nvidiactl, 0x2b NV_ESC_RM_ALLOC, 0x7ed8abfcc990)
+mmap(0x7ec0a0200000, 0x3ab000, 0x3 PROT_WRITE|PROT_EXEC, 0x11 MAP_FILE|MAP_SHARED, 4, 0x7ec0a0200000)
+ioctl(4 /dev/nvidia-uvm, 0x48 UVM_VALIDATE_VA_RANGE, 0x7ec0a0200000, 0x3ab000, 0x1e)
+00069000-0006e000 r-xp 00000000 00:00 0                                  [usertrap]
+200000000-200800000 ---p 00000000 00:00 0
+200800000-200a00000 rw-s 00000000 00:14 18                               /dev/nvidiactl
+200a00000-206800000 ---p 00000000 00:00 0
+206800000-206a00000 rw-s 00000000 00:14 18                               /dev/nvidiactl
+206a00000-206c00000 rw-s 00000000 00:14 18                               /dev/nvidiactl
+206c00000-300200000 ---p 00000000 00:00 0
+10000000000-10004000000 ---p 00000000 00:00 0
+55b7d1675000-55b7d167f000 r--p 00000000 00:1e 3                          /libcuda-debug/cuMemory/cuMemory
+55b7d167f000-55b7d16f6000 r-xp 0000a000 00:1e 3                          /libcuda-debug/cuMemory/cuMemory
+55b7d16f6000-55b7d1719000 r--p 00081000 00:1e 3                          /libcuda-debug/cuMemory/cuMemory
+55b7d171a000-55b7d171f000 r--p 000a4000 00:1e 3                          /libcuda-debug/cuMemory/cuMemory
+55b7d171f000-55b7d1720000 rw-p 000a9000 00:1e 3                          /libcuda-debug/cuMemory/cuMemory
+55b7d1720000-55b7d1721000 rw-p 00000000 00:00 0
+55b7d1721000-55b7d2347000 rw-p 00000000 00:00 0                          [heap]
+7ec09c000000-7ec09e000000 ---p 00000000 00:00 0
+7ec0a0000000-7ec0a05ab000 rw-s 7ec0a0000000 00:14 19                     /dev/nvidia-uvm
+7ec0a05ab000-7ec0a2000000 ---p 00000000 00:00 0
+7ec0a4000000-7ec0a4400000 ---p 00000000 00:00 0
+7ec0a4400000-7ec0a4600000 rw-s 00000000 00:14 18                         /dev/nvidiactl
+7ec0a4600000-7ec0a4e00000 rw-s 00000000 00:14 18                         /dev/nvidiactl
+7ec0a4e00000-7ec0a5400000 ---p 00000000 00:00 0
+7ec0a5400000-7ec0a5600000 rw-s 00000000 00:14 18                         /dev/nvidiactl
+7ec0a5600000-7ec0a5800000 ---p 00000000 00:00 0
+7ec0a5800000-7ec0a5a00000 rw-s 00000000 00:14 18                         /dev/nvidiactl
+7ec0a5a00000-7ec0a6000000 ---p 00000000 00:00 0
+7ec0a60f9000-7ec0a6c01000 rw-p 00000000 00:00 0
+7ec0a6cff000-7ec0a7201000 rw-p 00000000 00:00 0
+7ec0a72ff000-7ec0a7801000 rw-p 00000000 00:00 0
+7ec0a78ff000-7ec0a7e01000 rw-p 00000000 00:00 0
+7ec0a7eff000-7ec0a8021000 rw-p 00000000 00:00 0
+7ec0a8021000-7ec0ac000000 ---p 00000000 00:00 0
+7ec0ac000000-7ec0ac021000 rw-p 00000000 00:00 0
+7ec0ac021000-7ec0c0000000 ---p 00000000 00:00 0
+7ec0c0000000-7ec0c0401000 rw-p 00000000 00:00 0
+7ec0c04ff000-7ec0c0a01000 rw-p 00000000 00:00 0
+7ec0c0aff000-7ec0c1001000 rw-p 00000000 00:00 0
+7ec0c10ff000-7ec0c1601000 rw-p 00000000 00:00 0
+7ec0c166e000-7ec0c2600000 rw-p 00000000 00:00 0
+7ec0c2600000-7ec0c28a1000 ---p 00000000 00:00 0
+7ec0c28ff000-7ec0c2a00000 rw-p 00000000 00:00 0
+7ec0c2a00000-7ec0c2a01000 ---p 00000000 00:00 0
+7ec0c2a01000-7ec0c3201000 rw-p 00000000 00:00 0
+7ec0c3224000-7ec0c3400000 rw-p 00000000 00:00 0
+7ec0c3400000-7ec0c3401000 ---p 00000000 00:00 0
+7ec0c3401000-7ec0c3c01000 rw-p 00000000 00:00 0
+7ec0c3c24000-7ec0c3e00000 rw-p 00000000 00:00 0
+7ec0c3e00000-7ec2c7e00000 ---p 00000000 00:00 0
+7ec2c7e00000-7ec2c7eb2000 r--p 00000000 00:1a 92                         /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7ec2c7eb2000-7ec2c810f000 r-xp 000b2000 00:1a 92                         /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7ec2c810f000-7ec2c81e1000 r--p 0030f000 00:1a 92                         /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7ec2c81e1000-7ec2c823c000 r--p 003e0000 00:1a 92                         /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7ec2c823c000-7ec2c823f000 rw-p 0043b000 00:1a 92                         /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7ec2c823f000-7ec2c8242000 rw-p 00000000 00:00 0
+7ec2c824b000-7ec2c8400000 rw-p 00000000 00:00 0
+7ec2c8400000-7ec2c8402000 r-xp 00000000 00:1a 91                         /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11-openssl3.so.535.104.05
+7ec2c8402000-7ec2c8601000 ---p 00002000 00:1a 91                         /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11-openssl3.so.535.104.05
+7ec2c8601000-7ec2c8602000 r--p 00001000 00:1a 91                         /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11-openssl3.so.535.104.05
+7ec2c8602000-7ec2c8603000 rw-p 00002000 00:1a 91                         /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11-openssl3.so.535.104.05
+7ec2c861c000-7ec2c875f000 rw-p 00000000 00:00 0
+7ec2c875f000-7ec2c8a00000 ---p 00000000 00:00 0
+7ec2c8a00000-7ec2c8a28000 r--p 00000000 00:1a 31                         /usr/lib/x86_64-linux-gnu/libc.so.6
+7ec2c8a28000-7ec2c8bbd000 r-xp 00028000 00:1a 31                         /usr/lib/x86_64-linux-gnu/libc.so.6
+7ec2c8bbd000-7ec2c8c15000 r--p 001bd000 00:1a 31                         /usr/lib/x86_64-linux-gnu/libc.so.6
+7ec2c8c15000-7ec2c8c16000 ---p 00215000 00:1a 31                         /usr/lib/x86_64-linux-gnu/libc.so.6
+7ec2c8c16000-7ec2c8c1a000 r--p 00215000 00:1a 31                         /usr/lib/x86_64-linux-gnu/libc.so.6
+7ec2c8c1a000-7ec2c8c1c000 rw-p 00219000 00:1a 31                         /usr/lib/x86_64-linux-gnu/libc.so.6
+7ec2c8c1c000-7ec2c8c29000 rw-p 00000000 00:00 0
+7ec2c8c3f000-7ec2c8c40000 rw-s 00000000 00:05 38                         /dev/zero (deleted)
+7ec2c8c40000-7ec2c8c41000 rw-s 00000000 00:05 37                         /dev/zero (deleted)
+7ec2c8c41000-7ec2c8c42000 rw-s 00000000 00:05 36                         /dev/zero (deleted)
+7ec2c8c42000-7ec2c8c43000 rw-s 00000000 00:05 35                         /dev/zero (deleted)
+7ec2c8c43000-7ec2c8c44000 rw-s 00000000 00:05 34                         /dev/zero (deleted)
+7ec2c8c44000-7ec2c8c45000 rw-s 00000000 00:05 33                         /dev/zero (deleted)
+7ec2c8c45000-7ec2c8c46000 rw-s 00000000 00:05 32                         /dev/zero (deleted)
+7ec2c8c46000-7ec2c8c47000 rw-s 00000000 00:05 31                         /dev/zero (deleted)
+7ec2c8c47000-7ec2c8c48000 rw-s 00000000 00:05 30                         /dev/zero (deleted)
+7ec2c8c48000-7ec2c8c49000 rw-s 00000000 00:05 29                         /dev/zero (deleted)
+7ec2c8c49000-7ec2c8c4a000 rw-s 00000000 00:05 28                         /dev/zero (deleted)
+7ec2c8c4a000-7ec2c8c4b000 rw-s 00000000 00:05 27                         /dev/zero (deleted)
+7ec2c8c4b000-7ec2c8c4c000 rw-s 00000000 00:05 26                         /dev/zero (deleted)
+7ec2c8c4c000-7ec2c8c4d000 rw-s 00000000 00:05 25                         /dev/zero (deleted)
+7ec2c8c4d000-7ec2c8c4e000 rw-s 00000000 00:05 24                         /dev/zero (deleted)
+7ec2c8c4e000-7ec2c8d19000 rw-p 00000000 00:00 0
+7ec2c8d19000-7ec2c8d27000 r--p 00000000 00:1a 86                         /usr/lib/x86_64-linux-gnu/libm.so.6
+7ec2c8d27000-7ec2c8da3000 r-xp 0000e000 00:1a 86                         /usr/lib/x86_64-linux-gnu/libm.so.6
+7ec2c8da3000-7ec2c8dfe000 r--p 0008a000 00:1a 86                         /usr/lib/x86_64-linux-gnu/libm.so.6
+7ec2c8dfe000-7ec2c8dff000 r--p 000e4000 00:1a 86                         /usr/lib/x86_64-linux-gnu/libm.so.6
+7ec2c8dff000-7ec2c8e00000 rw-p 000e5000 00:1a 86                         /usr/lib/x86_64-linux-gnu/libm.so.6
+7ec2c8e00000-7ec2c8ee1000 r--p 00000000 00:1a 85                         /usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7ec2c8ee1000-7ec2c93f9000 r-xp 000e1000 00:1a 85                         /usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7ec2c93f9000-7ec2ca8d7000 r--p 005f9000 00:1a 85                         /usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7ec2ca8d7000-7ec2ca8f0000 r--p 01ad6000 00:1a 85                         /usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7ec2ca8f0000-7ec2ca9f6000 rw-p 01aef000 00:1a 85                         /usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7ec2ca9f6000-7ec2caa5d000 rw-p 00000000 00:00 0
+7ec2caa5d000-7ec2caa5e000 rw-s 00000000 00:05 23                         /dev/zero (deleted)
+7ec2caa5e000-7ec2caa5f000 rw-s 00000000 00:05 22                         /dev/zero (deleted)
+7ec2caa5f000-7ec2caa60000 rw-s 00000000 00:05 21                         /dev/zero (deleted)
+7ec2caa60000-7ec2caa61000 rw-s 00000000 00:05 20                         /dev/zero (deleted)
+7ec2caa61000-7ec2caa62000 rw-s 00000000 00:05 19                         /dev/zero (deleted)
+7ec2caa62000-7ec2caa63000 rw-s 00000000 00:05 18                         /dev/zero (deleted)
+7ec2caa63000-7ec2caa64000 rw-s 00000000 00:05 17                         /dev/zero (deleted)
+7ec2caa64000-7ec2caa65000 rw-s 00000000 00:05 16                         /dev/zero (deleted)
+7ec2caa65000-7ec2caa66000 rw-s 00000000 00:05 15                         /dev/zero (deleted)
+7ec2caa66000-7ec2caa67000 rw-s 00000000 00:05 14                         /dev/zero (deleted)
+7ec2caa67000-7ec2caa68000 rw-s 00000000 00:05 13                         /dev/zero (deleted)
+7ec2caa68000-7ec2caa69000 rw-s 00000000 00:05 12                         /dev/zero (deleted)
+7ec2caa69000-7ec2caa6a000 rw-s 00000000 00:05 11                         /dev/zero (deleted)
+7ec2caa6a000-7ec2caa6b000 rw-s 00000000 00:05 10                         /dev/zero (deleted)
+7ec2caa6b000-7ec2caa6c000 rw-s 00000000 00:05 9                          /dev/zero (deleted)
+7ec2caa6c000-7ec2caa6d000 rw-s 00000000 00:05 8                          /dev/zero (deleted)
+7ec2caa6d000-7ec2caa7d000 -w-s 00000000 00:14 20                         /dev/nvidia0
+7ec2caa7d000-7ec2caa8d000 -w-s 00000000 00:14 20                         /dev/nvidia0
+7ec2caa8d000-7ec2caa92000 rw-p 00000000 00:00 0
+7ec2caa92000-7ec2caa93000 r--p 00000000 00:1a 89                         /usr/lib/x86_64-linux-gnu/librt.so.1
+7ec2caa93000-7ec2caa94000 r-xp 00001000 00:1a 89                         /usr/lib/x86_64-linux-gnu/librt.so.1
+7ec2caa94000-7ec2caa95000 r--p 00002000 00:1a 89                         /usr/lib/x86_64-linux-gnu/librt.so.1
+7ec2caa95000-7ec2caa96000 r--p 00002000 00:1a 89                         /usr/lib/x86_64-linux-gnu/librt.so.1
+7ec2caa96000-7ec2caa97000 rw-p 00003000 00:1a 89                         /usr/lib/x86_64-linux-gnu/librt.so.1
+7ec2caa97000-7ec2caa99000 rw-p 00000000 00:00 0
+7ec2caa99000-7ec2caa9a000 r--p 00000000 00:1a 88                         /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7ec2caa9a000-7ec2caa9b000 r-xp 00001000 00:1a 88                         /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7ec2caa9b000-7ec2caa9c000 r--p 00002000 00:1a 88                         /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7ec2caa9c000-7ec2caa9d000 r--p 00002000 00:1a 88                         /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7ec2caa9d000-7ec2caa9e000 rw-p 00003000 00:1a 88                         /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7ec2caa9e000-7ec2caa9f000 r--p 00000000 00:1a 87                         /usr/lib/x86_64-linux-gnu/libdl.so.2
+7ec2caa9f000-7ec2caaa0000 r-xp 00001000 00:1a 87                         /usr/lib/x86_64-linux-gnu/libdl.so.2
+7ec2caaa0000-7ec2caaa1000 r--p 00002000 00:1a 87                         /usr/lib/x86_64-linux-gnu/libdl.so.2
+7ec2caaa1000-7ec2caaa2000 r--p 00002000 00:1a 87                         /usr/lib/x86_64-linux-gnu/libdl.so.2
+7ec2caaa2000-7ec2caaa3000 rw-p 00003000 00:1a 87                         /usr/lib/x86_64-linux-gnu/libdl.so.2
+7ec2caaa3000-7ec2caaa4000 rw-s 00000000 00:05 7                          /dev/zero (deleted)
+7ec2caaa4000-7ec2caaa5000 rw-s 00000000 00:05 6                          /dev/zero (deleted)
+7ec2caaa5000-7ec2caaa6000 rw-s 00000000 00:05 5                          /dev/zero (deleted)
+7ec2caaa6000-7ec2caaa7000 rw-s 00000000 00:05 4                          /dev/zero (deleted)
+7ec2caaa7000-7ec2caaa8000 rw-s 00000000 00:05 3                          /dev/zero (deleted)
+7ec2caaa8000-7ec2caaaa000 rw-p 00000000 00:00 0
+7ec2caaaa000-7ec2caaab000 r--p 00000000 00:00 0                          [vvar]
+7ec2caaab000-7ec2caaad000 r-xp 00000000 00:00 0
+7ec2caaad000-7ec2caaaf000 r--p 00000000 00:1a 26                         /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ec2caaaf000-7ec2caad9000 r-xp 00002000 00:1a 26                         /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ec2caad9000-7ec2caae4000 r--p 0002c000 00:1a 26                         /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ec2caae4000-7ec2caae5000 rw-s 00000000 00:05 2                          /dev/zero (deleted)
+7ec2caae5000-7ec2caae7000 r--p 00037000 00:1a 26                         /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ec2caae7000-7ec2caae9000 rw-p 00039000 00:1a 26                         /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ed8ab7ce000-7ed8abfce000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+mmap(0x7ec0a0200000, 0x3ab000, 0x3 PROT_WRITE|PROT_EXEC, 0x11 MAP_FILE|MAP_SHARED, 4, 0x7ec0a0200000)
+ioctl(4 /dev/nvidia-uvm, 0x48 UVM_VALIDATE_VA_RANGE, 0x7ec0a0200000, 0x3ab000, 0x1e)
+00069000-0006e000 r-xp 00000000 00:00 0                                  [usertrap]
+200000000-200800000 ---p 00000000 00:00 0
+200800000-200a00000 rw-s 00000000 00:14 18                               /dev/nvidiactl
+200a00000-206800000 ---p 00000000 00:00 0
+206800000-206a00000 rw-s 00000000 00:14 18                               /dev/nvidiactl
+206a00000-206c00000 rw-s 00000000 00:14 18                               /dev/nvidiactl
+206c00000-300200000 ---p 00000000 00:00 0
+10000000000-10004000000 ---p 00000000 00:00 0
+55b7d1675000-55b7d167f000 r--p 00000000 00:1e 3                          /libcuda-debug/cuMemory/cuMemory
+55b7d167f000-55b7d16f6000 r-xp 0000a000 00:1e 3                          /libcuda-debug/cuMemory/cuMemory
+55b7d16f6000-55b7d1719000 r--p 00081000 00:1e 3                          /libcuda-debug/cuMemory/cuMemory
+55b7d171a000-55b7d171f000 r--p 000a4000 00:1e 3                          /libcuda-debug/cuMemory/cuMemory
+55b7d171f000-55b7d1720000 rw-p 000a9000 00:1e 3                          /libcuda-debug/cuMemory/cuMemory
+55b7d1720000-55b7d1721000 rw-p 00000000 00:00 0
+55b7d1721000-55b7d2347000 rw-p 00000000 00:00 0                          [heap]
+7ec09c000000-7ec09e000000 ---p 00000000 00:00 0
+7ec0a0000000-7ec0a05ab000 rw-s 7ec0a0000000 00:14 19                     /dev/nvidia-uvm
+7ec0a05ab000-7ec0a2000000 ---p 00000000 00:00 0
+7ec0a4000000-7ec0a4400000 ---p 00000000 00:00 0
+7ec0a4400000-7ec0a4600000 rw-s 00000000 00:14 18                         /dev/nvidiactl
+7ec0a4600000-7ec0a4e00000 rw-s 00000000 00:14 18                         /dev/nvidiactl
+7ec0a4e00000-7ec0a5400000 ---p 00000000 00:00 0
+7ec0a5400000-7ec0a5600000 rw-s 00000000 00:14 18                         /dev/nvidiactl
+7ec0a5600000-7ec0a5800000 ---p 00000000 00:00 0
+7ec0a5800000-7ec0a5a00000 rw-s 00000000 00:14 18                         /dev/nvidiactl
+7ec0a5a00000-7ec0a6000000 ---p 00000000 00:00 0
+7ec0a60f9000-7ec0a6c01000 rw-p 00000000 00:00 0
+7ec0a6cff000-7ec0a7201000 rw-p 00000000 00:00 0
+7ec0a72ff000-7ec0a7801000 rw-p 00000000 00:00 0
+7ec0a78ff000-7ec0a7e01000 rw-p 00000000 00:00 0
+7ec0a7eff000-7ec0a8021000 rw-p 00000000 00:00 0
+7ec0a8021000-7ec0ac000000 ---p 00000000 00:00 0
+7ec0ac000000-7ec0ac021000 rw-p 00000000 00:00 0
+7ec0ac021000-7ec0c0000000 ---p 00000000 00:00 0
+7ec0c0000000-7ec0c0401000 rw-p 00000000 00:00 0
+7ec0c04ff000-7ec0c0a01000 rw-p 00000000 00:00 0
+7ec0c0aff000-7ec0c1001000 rw-p 00000000 00:00 0
+7ec0c10ff000-7ec0c1601000 rw-p 00000000 00:00 0
+7ec0c166e000-7ec0c2600000 rw-p 00000000 00:00 0
+7ec0c2600000-7ec0c28a1000 ---p 00000000 00:00 0
+7ec0c28ff000-7ec0c2a00000 rw-p 00000000 00:00 0
+7ec0c2a00000-7ec0c2a01000 ---p 00000000 00:00 0
+7ec0c2a01000-7ec0c3201000 rw-p 00000000 00:00 0
+7ec0c3224000-7ec0c3400000 rw-p 00000000 00:00 0
+7ec0c3400000-7ec0c3401000 ---p 00000000 00:00 0
+7ec0c3401000-7ec0c3c01000 rw-p 00000000 00:00 0
+7ec0c3c24000-7ec0c3e00000 rw-p 00000000 00:00 0
+7ec0c3e00000-7ec2c7e00000 ---p 00000000 00:00 0
+7ec2c7e00000-7ec2c7eb2000 r--p 00000000 00:1a 92                         /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7ec2c7eb2000-7ec2c810f000 r-xp 000b2000 00:1a 92                         /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7ec2c810f000-7ec2c81e1000 r--p 0030f000 00:1a 92                         /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7ec2c81e1000-7ec2c823c000 r--p 003e0000 00:1a 92                         /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7ec2c823c000-7ec2c823f000 rw-p 0043b000 00:1a 92                         /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7ec2c823f000-7ec2c8242000 rw-p 00000000 00:00 0
+7ec2c824b000-7ec2c8400000 rw-p 00000000 00:00 0
+7ec2c8400000-7ec2c8402000 r-xp 00000000 00:1a 91                         /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11-openssl3.so.535.104.05
+7ec2c8402000-7ec2c8601000 ---p 00002000 00:1a 91                         /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11-openssl3.so.535.104.05
+7ec2c8601000-7ec2c8602000 r--p 00001000 00:1a 91                         /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11-openssl3.so.535.104.05
+7ec2c8602000-7ec2c8603000 rw-p 00002000 00:1a 91                         /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11-openssl3.so.535.104.05
+7ec2c861c000-7ec2c875f000 rw-p 00000000 00:00 0
+7ec2c875f000-7ec2c8a00000 ---p 00000000 00:00 0
+7ec2c8a00000-7ec2c8a28000 r--p 00000000 00:1a 31                         /usr/lib/x86_64-linux-gnu/libc.so.6
+7ec2c8a28000-7ec2c8bbd000 r-xp 00028000 00:1a 31                         /usr/lib/x86_64-linux-gnu/libc.so.6
+7ec2c8bbd000-7ec2c8c15000 r--p 001bd000 00:1a 31                         /usr/lib/x86_64-linux-gnu/libc.so.6
+7ec2c8c15000-7ec2c8c16000 ---p 00215000 00:1a 31                         /usr/lib/x86_64-linux-gnu/libc.so.6
+7ec2c8c16000-7ec2c8c1a000 r--p 00215000 00:1a 31                         /usr/lib/x86_64-linux-gnu/libc.so.6
+7ec2c8c1a000-7ec2c8c1c000 rw-p 00219000 00:1a 31                         /usr/lib/x86_64-linux-gnu/libc.so.6
+7ec2c8c1c000-7ec2c8c29000 rw-p 00000000 00:00 0
+7ec2c8c3f000-7ec2c8c40000 rw-s 00000000 00:05 38                         /dev/zero (deleted)
+7ec2c8c40000-7ec2c8c41000 rw-s 00000000 00:05 37                         /dev/zero (deleted)
+7ec2c8c41000-7ec2c8c42000 rw-s 00000000 00:05 36                         /dev/zero (deleted)
+7ec2c8c42000-7ec2c8c43000 rw-s 00000000 00:05 35                         /dev/zero (deleted)
+7ec2c8c43000-7ec2c8c44000 rw-s 00000000 00:05 34                         /dev/zero (deleted)
+7ec2c8c44000-7ec2c8c45000 rw-s 00000000 00:05 33                         /dev/zero (deleted)
+7ec2c8c45000-7ec2c8c46000 rw-s 00000000 00:05 32                         /dev/zero (deleted)
+7ec2c8c46000-7ec2c8c47000 rw-s 00000000 00:05 31                         /dev/zero (deleted)
+7ec2c8c47000-7ec2c8c48000 rw-s 00000000 00:05 30                         /dev/zero (deleted)
+7ec2c8c48000-7ec2c8c49000 rw-s 00000000 00:05 29                         /dev/zero (deleted)
+7ec2c8c49000-7ec2c8c4a000 rw-s 00000000 00:05 28                         /dev/zero (deleted)
+7ec2c8c4a000-7ec2c8c4b000 rw-s 00000000 00:05 27                         /dev/zero (deleted)
+7ec2c8c4b000-7ec2c8c4c000 rw-s 00000000 00:05 26                         /dev/zero (deleted)
+7ec2c8c4c000-7ec2c8c4d000 rw-s 00000000 00:05 25                         /dev/zero (deleted)
+7ec2c8c4d000-7ec2c8c4e000 rw-s 00000000 00:05 24                         /dev/zero (deleted)
+7ec2c8c4e000-7ec2c8d19000 rw-p 00000000 00:00 0
+7ec2c8d19000-7ec2c8d27000 r--p 00000000 00:1a 86                         /usr/lib/x86_64-linux-gnu/libm.so.6
+7ec2c8d27000-7ec2c8da3000 r-xp 0000e000 00:1a 86                         /usr/lib/x86_64-linux-gnu/libm.so.6
+7ec2c8da3000-7ec2c8dfe000 r--p 0008a000 00:1a 86                         /usr/lib/x86_64-linux-gnu/libm.so.6
+7ec2c8dfe000-7ec2c8dff000 r--p 000e4000 00:1a 86                         /usr/lib/x86_64-linux-gnu/libm.so.6
+7ec2c8dff000-7ec2c8e00000 rw-p 000e5000 00:1a 86                         /usr/lib/x86_64-linux-gnu/libm.so.6
+7ec2c8e00000-7ec2c8ee1000 r--p 00000000 00:1a 85                         /usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7ec2c8ee1000-7ec2c93f9000 r-xp 000e1000 00:1a 85                         /usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7ec2c93f9000-7ec2ca8d7000 r--p 005f9000 00:1a 85                         /usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7ec2ca8d7000-7ec2ca8f0000 r--p 01ad6000 00:1a 85                         /usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7ec2ca8f0000-7ec2ca9f6000 rw-p 01aef000 00:1a 85                         /usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7ec2ca9f6000-7ec2caa5d000 rw-p 00000000 00:00 0
+7ec2caa5d000-7ec2caa5e000 rw-s 00000000 00:05 23                         /dev/zero (deleted)
+7ec2caa5e000-7ec2caa5f000 rw-s 00000000 00:05 22                         /dev/zero (deleted)
+7ec2caa5f000-7ec2caa60000 rw-s 00000000 00:05 21                         /dev/zero (deleted)
+7ec2caa60000-7ec2caa61000 rw-s 00000000 00:05 20                         /dev/zero (deleted)
+7ec2caa61000-7ec2caa62000 rw-s 00000000 00:05 19                         /dev/zero (deleted)
+7ec2caa62000-7ec2caa63000 rw-s 00000000 00:05 18                         /dev/zero (deleted)
+7ec2caa63000-7ec2caa64000 rw-s 00000000 00:05 17                         /dev/zero (deleted)
+7ec2caa64000-7ec2caa65000 rw-s 00000000 00:05 16                         /dev/zero (deleted)
+7ec2caa65000-7ec2caa66000 rw-s 00000000 00:05 15                         /dev/zero (deleted)
+7ec2caa66000-7ec2caa67000 rw-s 00000000 00:05 14                         /dev/zero (deleted)
+7ec2caa67000-7ec2caa68000 rw-s 00000000 00:05 13                         /dev/zero (deleted)
+7ec2caa68000-7ec2caa69000 rw-s 00000000 00:05 12                         /dev/zero (deleted)
+7ec2caa69000-7ec2caa6a000 rw-s 00000000 00:05 11                         /dev/zero (deleted)
+7ec2caa6a000-7ec2caa6b000 rw-s 00000000 00:05 10                         /dev/zero (deleted)
+7ec2caa6b000-7ec2caa6c000 rw-s 00000000 00:05 9                          /dev/zero (deleted)
+7ec2caa6c000-7ec2caa6d000 rw-s 00000000 00:05 8                          /dev/zero (deleted)
+7ec2caa6d000-7ec2caa7d000 -w-s 00000000 00:14 20                         /dev/nvidia0
+7ec2caa7d000-7ec2caa8d000 -w-s 00000000 00:14 20                         /dev/nvidia0
+7ec2caa8d000-7ec2caa92000 rw-p 00000000 00:00 0
+7ec2caa92000-7ec2caa93000 r--p 00000000 00:1a 89                         /usr/lib/x86_64-linux-gnu/librt.so.1
+7ec2caa93000-7ec2caa94000 r-xp 00001000 00:1a 89                         /usr/lib/x86_64-linux-gnu/librt.so.1
+7ec2caa94000-7ec2caa95000 r--p 00002000 00:1a 89                         /usr/lib/x86_64-linux-gnu/librt.so.1
+7ec2caa95000-7ec2caa96000 r--p 00002000 00:1a 89                         /usr/lib/x86_64-linux-gnu/librt.so.1
+7ec2caa96000-7ec2caa97000 rw-p 00003000 00:1a 89                         /usr/lib/x86_64-linux-gnu/librt.so.1
+7ec2caa97000-7ec2caa99000 rw-p 00000000 00:00 0
+7ec2caa99000-7ec2caa9a000 r--p 00000000 00:1a 88                         /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7ec2caa9a000-7ec2caa9b000 r-xp 00001000 00:1a 88                         /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7ec2caa9b000-7ec2caa9c000 r--p 00002000 00:1a 88                         /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7ec2caa9c000-7ec2caa9d000 r--p 00002000 00:1a 88                         /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7ec2caa9d000-7ec2caa9e000 rw-p 00003000 00:1a 88                         /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7ec2caa9e000-7ec2caa9f000 r--p 00000000 00:1a 87                         /usr/lib/x86_64-linux-gnu/libdl.so.2
+7ec2caa9f000-7ec2caaa0000 r-xp 00001000 00:1a 87                         /usr/lib/x86_64-linux-gnu/libdl.so.2
+7ec2caaa0000-7ec2caaa1000 r--p 00002000 00:1a 87                         /usr/lib/x86_64-linux-gnu/libdl.so.2
+7ec2caaa1000-7ec2caaa2000 r--p 00002000 00:1a 87                         /usr/lib/x86_64-linux-gnu/libdl.so.2
+7ec2caaa2000-7ec2caaa3000 rw-p 00003000 00:1a 87                         /usr/lib/x86_64-linux-gnu/libdl.so.2
+7ec2caaa3000-7ec2caaa4000 rw-s 00000000 00:05 7                          /dev/zero (deleted)
+7ec2caaa4000-7ec2caaa5000 rw-s 00000000 00:05 6                          /dev/zero (deleted)
+7ec2caaa5000-7ec2caaa6000 rw-s 00000000 00:05 5                          /dev/zero (deleted)
+7ec2caaa6000-7ec2caaa7000 rw-s 00000000 00:05 4                          /dev/zero (deleted)
+7ec2caaa7000-7ec2caaa8000 rw-s 00000000 00:05 3                          /dev/zero (deleted)
+7ec2caaa8000-7ec2caaaa000 rw-p 00000000 00:00 0
+7ec2caaaa000-7ec2caaab000 r--p 00000000 00:00 0                          [vvar]
+7ec2caaab000-7ec2caaad000 r-xp 00000000 00:00 0
+7ec2caaad000-7ec2caaaf000 r--p 00000000 00:1a 26                         /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ec2caaaf000-7ec2caad9000 r-xp 00002000 00:1a 26                         /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ec2caad9000-7ec2caae4000 r--p 0002c000 00:1a 26                         /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ec2caae4000-7ec2caae5000 rw-s 00000000 00:05 2                          /dev/zero (deleted)
+7ec2caae5000-7ec2caae7000 r--p 00037000 00:1a 26                         /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ec2caae7000-7ec2caae9000 rw-p 00039000 00:1a 26                         /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ed8ab7ce000-7ed8abfce000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]

@@ -1,0 +1,79 @@
+00400000-00f81000 r-xp 00000000 fd:00 1348917                            /usr/local/bin/runsc
+00f81000-01e74000 r--p 00b81000 fd:00 1348917                            /usr/local/bin/runsc
+01e74000-01ec6000 rw-p 01a74000 fd:00 1348917                            /usr/local/bin/runsc
+01ec6000-01f00000 rw-p 00000000 00:00 0
+c000000000-c001000000 rw-p 00000000 00:00 0
+c001000000-c004000000 ---p 00000000 00:00 0
+7f2a242b8000-7f2a242c8000 r-xp 00000000 00:00 0
+7f4796c00000-7f4796e00000 r--s 00000000 fd:00 1348611                    /root/usr/lib/x86_64-linux-gnu/libnvidia-pkcs11-openssl3.so.535.104.05
+7f4797000000-7f4797200000 r--s 01800000 fd:00 1348560                    /root/usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7f4797400000-7f4797600000 r--s 01600000 fd:00 1348560                    /root/usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7f4797800000-7f4797a00000 r--s 01400000 fd:00 1348560                    /root/usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7f4797c00000-7f4797e00000 r--s 01200000 fd:00 1348560                    /root/usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7f4798000000-7f4798200000 r--s 01000000 fd:00 1348560                    /root/usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7f4798400000-7f4798600000 r--s 00e00000 fd:00 1348560                    /root/usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7f4798800000-7f4798a00000 r--s 00c00000 fd:00 1348560                    /root/usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7f4798c00000-7f4798e00000 r--s 00a00000 fd:00 1348560                    /root/usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7f4799000000-7f4799200000 r--s 00800000 fd:00 1348560                    /root/usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7f4799400000-7f4799600000 r--s 00600000 fd:00 1348560                    /root/usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7f4799800000-7f4799a00000 r--s 00400000 fd:00 1348560                    /root/usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7f4799a00000-7f4799c00000 r--s 00000000 00:30 2230002                    /root/usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7f4799c00000-7f4799e00000 r--s 00200000 fd:00 1348560                    /root/usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7f4799e00000-7f479a000000 r--s 00400000 00:30 2230002                    /root/usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7f479a000000-7f479a200000 r--s 00000000 fd:00 1348560                    /root/usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7f479a200000-7f479a400000 r--s 00200000 00:30 2230002                    /root/usr/lib/x86_64-linux-gnu/libcrypto.so.3
+7f479a400000-7f479a600000 r--s 01a00000 fd:00 1348560                    /root/usr/lib/x86_64-linux-gnu/libcuda.so.535.104.05
+7f479a600000-7f479a800000 r--s 00000000 00:30 1610402                    /root/usr/lib/x86_64-linux-gnu/librt.so.1
+7f479a800000-7f479aa00000 r--s 00000000 fd:00 1204071                    /root/libcuda-debug/cuMemory/cuMemory
+7f479aa00000-7f479ac00000 r--s 00000000 00:30 1610395                    /root/usr/lib/x86_64-linux-gnu/libpthread.so.0
+7f479ac00000-7f479ae00000 r--s 00000000 fd:00 2359360                    /root/nvtrace/xfstrace
+7f479aeab000-7f479beab000 rw-s 38e00000 00:01 6161                       /memfd:systrap-memory (deleted)
+7f479beab000-7f479c0ab000 r--s 00000000 00:30 1610335                    /root/usr/lib/x86_64-linux-gnu/libdl.so.2
+7f479c0ab000-7f479d0ab000 rw-s 39e00000 00:01 6161                       /memfd:systrap-memory (deleted)
+7f479d0ab000-7f479d0af000 rw-s 3ffb5000 00:01 6161                       /memfd:systrap-memory (deleted)
+7f479d0af000-7f479e0af000 rw-s 3ae00000 00:01 6161                       /memfd:systrap-memory (deleted)
+7f479e0af000-7f479e0ba000 rw-s 3ffb9000 00:01 6161                       /memfd:systrap-memory (deleted)
+7f479e29c000-7f479e2ba000 rw-s 3ff97000 00:01 6161                       /memfd:systrap-memory (deleted)
+7f479e2ba000-7f479e2be000 rw-s 3ffc4000 00:01 6161                       /memfd:systrap-memory (deleted)
+7f479e2be000-7f479f2be000 rw-s 3be00000 00:01 6161                       /memfd:systrap-memory (deleted)
+7f479f2be000-7f479f2cd000 rw-s 3ffc8000 00:01 6161                       /memfd:systrap-memory (deleted)
+7f479f2cd000-7f47a02cd000 rw-s 3ce00000 00:01 6161                       /memfd:systrap-memory (deleted)
+7f47a02cd000-7f47a02d8000 rw-s 3ffd7000 00:01 6161                       /memfd:systrap-memory (deleted)
+7f47a0480000-7f47a0490000 rw-s 3ff7f000 00:01 6161                       /memfd:systrap-memory (deleted)
+7f47a0490000-7f47a0690000 r--s 00000000 00:30 1610372                    /root/usr/lib/x86_64-linux-gnu/libm.so.6
+7f47a0690000-7f47a0698000 rw-s 3ff8f000 00:01 6161                       /memfd:systrap-memory (deleted)
+7f47a0698000-7f47a0718000 rw-p 00000000 00:00 0
+7f47a0718000-7f47a0918000 r--s 00000000 00:30 1610325                    /root/usr/lib/x86_64-linux-gnu/libc.so.6
+7f47a0918000-7f47a091c000 rw-s 3ffe2000 00:01 6161                       /memfd:systrap-memory (deleted)
+7f47a091c000-7f47a191c000 rw-s 3de00000 00:01 6161                       /memfd:systrap-memory (deleted)
+7f47a191c000-7f47a1927000 rw-s 3ffe6000 00:01 6161                       /memfd:systrap-memory (deleted)
+7f47a1927000-7f47a1b27000 r--s 00000000 00:30 1610297                    /root/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f47a1b27000-7f47a1d27000 r--s 00200000 00:30 1610325                    /root/usr/lib/x86_64-linux-gnu/libc.so.6
+7f47a1d27000-7f47a1e37000 rw-p 00000000 00:00 0
+7f47a1e37000-7f47a2038000 rw-s 00000000 00:08 28165                      socket:[28165]
+7f47a2038000-7f47a2078000 rw-p 00000000 00:00 0
+7f47a2078000-7f47e2078000 rw-s 00000000 00:01 7                          /memfd:runsc-memory (deleted)
+7f47e2078000-7f47e207c000 rw-s 3fff1000 00:01 6161                       /memfd:systrap-memory (deleted)
+7f47e207c000-7f47e307c000 rw-s 3ee00000 00:01 6161                       /memfd:systrap-memory (deleted)
+7f47e307c000-7f47e3087000 rw-s 3fff5000 00:01 6161                       /memfd:systrap-memory (deleted)
+7f47e3087000-7f47e3088000 rw-s 00000000 00:01 6160                       /memfd:memory-usage (deleted)
+7f47e3088000-7f47e33d8000 rw-p 00000000 00:00 0
+7f47e33d8000-7f47e34d8000 rw-p 00000000 00:00 0
+7f47e34d8000-7f47e35ed000 rw-p 00000000 00:00 0
+7f47e35ed000-7f47e55ed000 rw-p 00000000 00:00 0
+7f47e55ed000-7f47f576d000 ---p 00000000 00:00 0
+7f47f576d000-7f47f576e000 rw-p 00000000 00:00 0
+7f47f576e000-7f481576d000 ---p 00000000 00:00 0
+7f481576d000-7f481576e000 rw-p 00000000 00:00 0
+7f481576e000-7f482761d000 ---p 00000000 00:00 0
+7f482761d000-7f482761e000 rw-p 00000000 00:00 0
+7f482761e000-7f48299f3000 ---p 00000000 00:00 0
+7f48299f3000-7f48299f4000 rw-p 00000000 00:00 0
+7f48299f4000-7f4829e6d000 ---p 00000000 00:00 0
+7f4829e6d000-7f4829e6e000 rw-p 00000000 00:00 0
+7f4829e6e000-7f4829eed000 ---p 00000000 00:00 0
+7f4829eed000-7f4829f4d000 rw-p 00000000 00:00 0
+7ffca5806000-7ffca5827000 rw-p 00000000 00:00 0                          [stack]
+7ffca59cc000-7ffca59d0000 r--p 00000000 00:00 0                          [vvar]
+7ffca59d0000-7ffca59d2000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
