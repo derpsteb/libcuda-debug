@@ -31,6 +31,12 @@ void *mmap(void *addr, size_t length, int prot, int flags, int fd, off_t offset)
     realMmap = dlsym(RTLD_NEXT, "mmap");
     if (length == 0x3ab000)
     {
+        printf("mmap addr: 0x%p\n", addr);
+        printf("mmap length: 0x%lx\n", length);
+        printf("mmap prot: 0x%x\n", prot);
+        printf("mmap flags: 0x%x\n", flags);
+        printf("mmap fd: %i\n", fd);
+        printf("mmap offset: %ld\n", offset);
         print_trace();
     }
     return realMmap(addr, length, prot, flags, fd, offset);
